@@ -1,0 +1,73 @@
+
+body{
+   background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA  51%, #1D2B64  100%);
+background-attachment: fixed;
+  margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+#forms{
+  
+   width:500px;
+    margin:20vh auto 10px auto;
+    border-radius: 15px;
+    background-color:#162046;
+    padding: 10px;
+     
+
+}
+label{
+    color: white;
+}
+h1{
+    text-align: center;
+    color:#ffffff;
+}
+button{
+    color:rgb(255, 255, 255);
+    background-color: #5e5f60;
+    border: 1px solid #008793;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px auto;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+.input-group input{
+    padding: 10px;
+    border-radius: 5px;
+    font-size:17px;
+    margin-top: 5px;
+    border: 1px solid #0cf041;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+     box-shadow: 0 15px 25px rgba(255, 70, 77, 0.6);
+}
+
+.input-group.success input{
+    border-color:  rgb(27, 255, 27);
+      box-shadow: 0 15px 25px rgba(1, 255, 35, 0.6);
+
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}
+.input-group:hover{
+      transform: rotateX(5deg) rotateY(5deg) scale(1.03) ;
+  box-shadow: 0 15px 25px rgba(241, 13, 21, 0.6);
+
+}
