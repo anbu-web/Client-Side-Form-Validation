@@ -1,0 +1,53 @@
+    body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 49, 49);
+}
+input{
+    padding: 10px;
+    width:350px;
+    height: 55px;
+    margin-top: 7%;
+    margin-left: 35%;
+    font-size: 150%;
+
+    border-radius: 8px;
+color: rgb(255, 255, 255);
+background-color: rgb(236, 94, 236);
+
+   
+}
+#buttons{
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+     border-radius: 10px;
+     color: rgb(255, 255, 255);
+     font-size: large;
+     background-color: slategrey;
+     margin-left: 10px;
+}
+#listitems{
+    color: rgb(4, 197, 231);
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 50%;
+    height: 50%;
+    font-size: 200%;
+    font-weight: bold;
+}
+#listitems button{
+    color:white;
+    background-color: green;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+h1{
+    color: lemonchiffon;
+    margin-top: 100px;
+    text-align: center;
+}
