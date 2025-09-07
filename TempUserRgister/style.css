@@ -1,0 +1,90 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(55, 179, 86) 0%, rgb(13, 168, 62) 86%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#forms{
+    width:500px;
+    margin:20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding:30px;
+  
+}
+
+h1{
+    text-align: center;
+    color:#792099;
+}
+
+#forms button{
+    background:linear-gradient(0deg, rgb(8, 14, 8) 0%, rgb(47, 148, 81) 86%);
+    color:white;
+    border: 1px solid #0f311a;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+   
+    font-size:20px;
+    width:100%;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+#select{
+     display:flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+
+.input-group input{
+   
+    font-size:15px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgba(39, 195, 34, 0.563) ;
+}
+.input-group option{
+    font-size: 15px;
+
+}
+.input-group #selects{
+    font-size: 15px;
+    padding: 5px;
+  
+    margin-left: 20px;
+}
+.input-group #select{
+    font-size: 15px;
+    padding: 5px;
+  margin-top: 10px;
+
+}
+
+    table,th,td{
+       margin-left: 20%;
+        text-align: center;
+        margin-top: 30px;
+        padding: 10px;
+        border: 1px solid rgb(255, 236, 236);
+        color: whitesmoke;
+        border-collapse: collapse;
+        background-color: rgb(90, 88, 88);
+    }
+    table button{
+        background-color: rgb(235, 7, 7);
+        padding: 5px;
+        width: 100%;
+        border-radius: 5px;
+    }
+   
+  
+

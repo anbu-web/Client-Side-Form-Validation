@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Register</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Student Form</h1>
+    <form id="forms">
+         <div class="input-group">
+            <label for="">Name</label>
+            <input type="text" id="inputname"  placeholder="Enter your name">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="">DOB</label>
+            <input type="date" id="age" placeholder="Enter your Age">
+            <div class="error"></div>
+        </div>
+        <div class="input-group">
+            <label for="">Email</label>
+            <input type="text" id="mail" placeholder="Enter your EmailId">
+            <div class="error"></div>
+        </div>
+        <div class="input-group" id="select">
+           
+<label for="gender">Select your gender:</label>
+<select name="" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+</div>
+<div class="input-group" id="selects">
+    <label for="">Enter a course</label>
+    <input type="text" id="course">
+  
+</div>
+<div class="input-group">
+    <label for="">PhoneNumber</label>
+    <input type="tel" id="number" placeholder="Enter your PhoneNumber">
+    <div class="error"></div>
+   
+</div>  
+<div>
+   <button type="button" onclick="submitting()">SUBMIT</button>
+</div>
+ 
+</form >
+
+    <div class="tables">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Date of Birth</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th>Phone Number</th>
+        <th>Operation</th>
+      </tr>
+    </thead>
+    <tbody id="addchild">
+      <tr>
+        <td>**********</td>
+        <td>00-00-0000</td>
+        <td>temb@gmail.com</td>
+        <td>Male</td>
+        <td>Java with FullStack</td>
+        <td>123456789</td>
+        <td>
+          <button onclick="removes(event)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script src="script.js">
+</script>
+</html>
